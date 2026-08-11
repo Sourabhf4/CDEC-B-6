@@ -1,608 +1,1815 @@
-# Day-1  
-
-## 1. Introduction to DevOps
-DevOps is a combination of cultural philosophies, practices, and tools that increase an organization's ability to deliver applications and services at high velocity. It bridges the gap between development (Dev) and operations (Ops), enabling faster and more reliable software delivery.
-
-### Key Principles of DevOps:
-- **Collaboration**: Breaking silos between development, operations, and other teams.
-- **Automation**: Automating repetitive tasks to reduce human error.
-- **Continuous Integration and Continuous Deployment (CI/CD)**: Frequent integration of code and automatic deployment to production.
-- **Monitoring and Feedback**: Real-time monitoring to identify issues quickly.
-
-### Benefits of DevOps:
-- Faster time to market
-- Improved collaboration and communication
-- Higher software quality
-- Enhanced scalability and reliability
+# 🚀 Day 1 – Introduction to DevOps
 
 ---
 
-## 2. How IT Company Works
-Understanding how an IT company functions is essential to grasp the role of DevOps within an organization.
+## 📌 1. Introduction to DevOps
 
-### General Workflow:
-1. **Project Initiation**:
-   - Requirement gathering
-   - Feasibility study
-   - Budget allocation
-2. **Development**:
-   - Coding by developers
-   - Regular commits to version control systems (e.g., Git)
-3. **Testing**:
-   - Automated and manual testing
-   - Identifying and fixing bugs
-4. **Deployment**:
-   - Releasing software to production
-   - Ensuring high availability and minimal downtime
-5. **Maintenance**:
-   - Monitoring performance
-   - Applying updates and patches
-
-### Key Departments:
-- **Development Team**: Builds the application.
-- **Testing Team (QA)**: Ensures quality through rigorous testing.
-- **Operations Team**: Manages infrastructure and deployment.
-- **Business Team**: Engages with clients and stakeholders.
+DevOps is a **culture, mindset, and set of practices** that brings Development (Dev) and Operations (Ops) teams together to deliver software faster, more reliably, and continuously.
 
 ---
 
-## 3. What is an Application?
-An application is a software program designed to perform a specific set of tasks for users or other systems.
+### 🔑 Key Principles of DevOps
 
-### Types of Applications:
-1. **Web Applications**: Accessible via web browsers (e.g., Gmail, Facebook).
-2. **Mobile Applications**: Designed for mobile devices (e.g., WhatsApp, Instagram).
-3. **Desktop Applications**: Installed on personal computers (e.g., MS Word, Photoshop).
-4. **Microservices**: Modular applications where each module performs a specific task.
-
-### Key Components of an Application:
-- **Frontend**: User interface (UI) that users interact with.
-- **Backend**: Server-side logic that handles data processing.
-- **Database**: Stores and retrieves application data.
+- 🤝 **Collaboration** – Breaking silos between development, operations, and other teams.
+- ⚙️ **Automation** – Automating repetitive tasks to reduce human error.
+- 🔄 **Continuous Integration & Continuous Deployment (CI/CD)** – Frequent integration of code and automated deployment.
+- 📊 **Monitoring & Feedback** – Real-time monitoring to quickly identify and fix issues.
 
 ---
 
-## 4. Developers vs Testers vs DevOps
+### ✅ Benefits of DevOps
 
-| **Role**        | **Responsibilities**                                                                  |
-|------------------|--------------------------------------------------------------------------------------|
-| **Developers**  | - Write code for applications.<br>- Fix bugs and add new features.                   |
-| **Testers**     | - Test the application for functionality, performance, and security.<br>- Report issues. |
-| **DevOps**      | - Manage CI/CD pipelines.<br>- Automate infrastructure.<br>- Monitor and maintain production systems. |
-
-### Differences:
-- **Focus**:
-  - Developers focus on writing code.
-  - Testers focus on validating software quality.
-  - DevOps focuses on bridging the gap between development and operations.
-
-- **Tools Used**:
-  - Developers: IDEs, Git, debugging tools.
-  - Testers: Selenium, JUnit, LoadRunner.
-  - DevOps: Jenkins, Docker, Kubernetes, Terraform.
+- 🚀 Faster time to market  
+- 🤝 Improved collaboration and communication  
+- 🛠 Higher software quality  
+- 📈 Enhanced scalability and reliability  
 
 ---
 
-### Conclusion:
-DevOps plays a crucial role in modern IT companies by ensuring smooth collaboration and faster software delivery. Understanding how IT companies function and the roles of developers, testers, and DevOps engineers is essential for any aspiring professional.
+## 🏢 2. How an IT Company Works
 
--------
-
-## Day 2: The Strategic Imperative of DevOps
-
-### Top Features of Linux
-- Open-source and community-driven
-- Highly customizable
-- Secure and stable
-- Supports various hardware architectures
-- Rich set of tools for developers and administrators
-
-### Linux Everywhere
-- Powers over 90% of cloud infrastructure
-- Used in supercomputers, IoT devices, and embedded systems
-- Essential for DevOps environments
-
-### Unlocking Linux Careers
-- Proficiency in Linux opens doors to roles in system administration, DevOps, and cloud engineering.
-- High demand for Linux skills across industries.
-
-### Why AWS Stands Out in the Cloud Market
-- Market leader with a broad range of services
-- Exceptional scalability and reliability
-- Comprehensive global infrastructure
-
-### Overview of AWS
-- Provides compute, storage, networking, and database services
-- Popular services: EC2, S3, RDS, Lambda
-- Pay-as-you-go pricing model
-
-### Customer Success Stories
-- Netflix: Scalable streaming platform
-- Airbnb: Efficient global operations
-- NASA: Data storage and processing
-
-### Scalability and Flexibility of Business with AWS
-- Elastic scaling to meet demand
-- Supports diverse workloads and applications
-- Enables rapid deployment of new features
-
-### Comparing AWS with Competitors
-- **AWS**: Largest service catalog and global reach
-- **Azure**: Strong integration with Microsoft products
-- **Google Cloud**: Focus on data analytics and AI
-
-### Why DevOps is a Growing Career Field
-- Organizations prioritize faster software delivery and innovation
-- Essential for modern software development practices
-
-### High Demand for DevOps Professionals
-- DevOps engineers are highly sought after in IT and tech companies
-- Roles in automation, CI/CD, and infrastructure management
-
-### Salary Expectations and Career Growth
-- Competitive salaries globally
-- Opportunities for leadership roles
-
-### Skills and Expertise in DevOps
-- Proficiency in CI/CD tools, scripting, and cloud platforms
-- Strong understanding of infrastructure and configuration management
-
-### Certifications and Learning Resources
-- **Certifications**:
-  - AWS Certified DevOps Engineer
-  - Kubernetes Certified Administrator
-  - Linux Foundation Certified Engineer
-- **Resources**:
-  - Online platforms: Coursera, Udemy, Pluralsight
-  - Books: "The Phoenix Project," "The DevOps Handbook"
-
-### The Future of DevOps Careers
-- Increased adoption of automation and AI
-- Enhanced demand for containerization and orchestration experts
-
-### Goal to Achieve in CDEC
-- Master core Linux and DevOps tools
-- Implement real-world DevOps projects
-- Achieve certifications to validate expertise
+Understanding how an IT company functions helps in understanding the role of DevOps.
 
 ---
 
-## Day 3: Navigating the Linux Landscape
+### 🔄 General Workflow
 
-### Getting Started with Operating Systems
-- Operating systems (OS) are the backbone of any computer, managing hardware and software resources.
+#### 📍 Project Initiation
+- Requirement gathering
+- Feasibility study
+- Budget allocation
 
-### Different Types of Operating Systems
-1. **Desktop OS**: Windows, macOS, Linux.
-2. **Server OS**: Linux (Ubuntu Server, CentOS), Windows Server.
-3. **Mobile OS**: Android, iOS.
-4. **Embedded OS**: Designed for specific devices (e.g., IoT, routers).
+#### 💻 Development
+- Coding by developers
+- Regular commits to version control systems (e.g., Git)
 
-### How Operating Systems Impact Your Daily Life
-- Powering personal computers, mobile devices, and servers.
-- Enabling internet browsing, gaming, and productivity tools.
+#### 🧪 Testing
+- Automated and manual testing
+- Identifying and fixing bugs
 
-### Windows vs Unix vs Linux
-#### Ownership and Origin
-- **Windows**: Proprietary OS developed by Microsoft.
-- **Unix**: Developed in the 1970s, the foundation for many OSs.
-- **Linux**: Open-source derivative of Unix, created by Linus Torvalds.
+#### 🚀 Deployment
+- Releasing software to production
+- Ensuring high availability and minimal downtime
 
-#### Cost and Licensing
-- **Windows**: Requires paid licenses.
-- **Unix**: Licensed, often expensive.
-- **Linux**: Free and open-source.
-
-#### Security and Privacy
-- **Windows**: Frequent target for malware.
-- **Unix/Linux**: Strong security features; widely trusted.
-
-#### User Interface
-- **Windows**: GUI-focused, user-friendly.
-- **Unix/Linux**: Command-line driven, GUI optional.
-
-### What is a Server?
-- A server is a computer system that provides data, resources, or services to other computers over a network.
-
-### Desktop OS vs Server OS
-- **Desktop OS**: Optimized for user experience, multimedia, and personal tasks.
-- **Server OS**: Designed for performance, stability, and scalability in networked environments.
-
-### Introduction to Linux
-- Linux is a versatile OS used in servers, desktops, and embedded systems.
-- Known for stability, security, and flexibility.
-
-### Architecture of Linux
-1. **Kernel**: Core of the OS, managing hardware resources.
-2. **System Libraries**: Provide functionalities to the OS.
-3. **System Utilities**: Tools for managing the system.
-4. **Shell**: Interface for user commands.
-5. **Applications**: Software running on top of the OS.
-
-
-----
-# Day-4 : Mastering the Linux Prompt
-
-## Understanding the Linux Command Prompt
-The Linux command prompt is a powerful interface for interacting with your operating system. It allows users to execute commands, manage files, and perform administrative tasks efficiently. The prompt typically looks like this:
-```
-username@hostname:~$
-```
-
-### Key Components:
-- **Username**: Your current user account.
-- **Hostname**: The name of the computer.
-- **Current Directory**: The directory you're working in (e.g., `~` for the home directory).
-- **Prompt Symbol**: `$` for standard users and `#` for the root user.
-
-## Decoding the Structure of the Command Prompt
-Understanding the elements of the command prompt helps you navigate and operate more effectively:
-- **`~`**: Represents the user's home directory.
-- **`pwd`**: Displays the current directory.
-- **`whoami`**: Reveals the current user.
-- **`hostname`**: Shows the machine's name.
-
-## Effective Command Prompt Usage: A Step-by-Step Guide
-1. **Navigating Directories**:
-   - `cd` to change directories.
-   - `ls` to list files and directories.
-   - `pwd` to print the working directory.
-
-2. **Managing Files**:
-   - `touch filename` to create an empty file.
-   - `mkdir dirname` to create a new directory.
-   - `rm filename` to delete a file.
-
-3. **Getting Help**:
-   - `man command` to view the manual for a command.
-   - `--help` for a quick command reference (e.g., `ls --help`).
-
-4. **Running Commands as Root**:
-   - Use `sudo` before commands to execute with administrative privileges.
-
-## Introduction to Linux Basic Commands
-Learning the basic commands is essential to mastering Linux:
-- **`ls`**: Lists files and directories.
-- **`cp`**: Copies files.
-- **`mv`**: Moves or renames files.
-- **`rm`**: Removes files or directories.
-- **`chmod`**: Changes file permissions.
-
-
-### Tips for Beginners:
-- Use `Tab` for auto-completion.
-- Use `Up` and `Down` arrow keys to cycle through command history.
-
-## Essential System Information: Commands and Tools for Linux
-Learn commands to retrieve system details:
-- **`uname -a`**: Displays system information.
-- **`df -h`**: Shows disk space usage.
-- **`top`**: Monitors system processes.
-- **`free -m`**: Displays memory usage.
-- **`who`**: Lists logged-in users.
-
-Mastering these elements will empower you to utilize Linux effectively and confidently.
-
-----
-
-# Day 5: Delving Deep into the Linux File System
-
-## Navigating the File System
-Understanding how to navigate the Linux file system is fundamental to using the operating system effectively. The Linux file system is organized as a hierarchy, starting from the root directory `/`.
-
-### Key Commands for Navigation:
-- **`pwd`**: Prints the current working directory.
-- **`cd`**: Changes the current directory.
-  - Example: `cd /home/user` navigates to the user's home directory.
-  - `cd ..` moves one level up in the directory hierarchy.
-  - `cd -` returns to the previous directory.
-- **`ls`**: Lists the contents of a directory.
-  - Options:
-    - `ls -l`: Detailed list view.
-    - `ls -a`: Shows hidden files (those starting with `.`).
-
-## File and Directory Management
-Linux provides powerful commands for creating, renaming, and organizing files and directories.
-
-### Creating Files and Directories:
-- **`touch filename`**: Creates an empty file.
-- **`mkdir dirname`**: Creates a new directory.
-  - Use `mkdir -p /path/to/dir` to create nested directories.
-
-### Renaming Files and Directories:
-- **`mv oldname newname`**: Renames files or directories.
-  - Example: `mv file1.txt file2.txt` renames `file1.txt` to `file2.txt`.
-
-### Viewing Directory Structure:
-- **`tree`**: Displays a tree-like structure of directories (if installed).
-  - Example: `tree /home/user`.
-- **`ls -R`**: Lists directory contents recursively.
-
-## Viewing and Editing Files
-Linux offers several tools for inspecting and modifying files.
-
-### Viewing Files:
-- **`cat filename`**: Displays the contents of a file.
-- **`less filename`**: Views file contents one page at a time.
-  - Navigate with the `Up`/`Down` keys and press `q` to quit.
-- **`head filename`**: Displays the first 10 lines of a file.
-- **`tail filename`**: Displays the last 10 lines of a file.
-  - Use `tail -f filename` to view live updates (e.g., log files).
-
-### Editing Files:
-- **`nano filename`**: Opens the file in a simple text editor.
-  - Save changes with `Ctrl + O`, and exit with `Ctrl + X`.
-- **`vim filename`**: Opens the file in the Vim editor (advanced users).
-  - Press `i` to enter insert mode, `Esc` to exit insert mode, and `:wq` to save and quit.
-
-## Copy, Move, and Delete Files
-Efficiently manage files using the following commands:
-
-### Copying Files:
-- **`cp source destination`**: Copies files or directories.
-  - Options:
-    - `cp -r`: Copies directories recursively.
-    - `cp -i`: Prompts before overwriting existing files.
-
-### Moving Files:
-- **`mv source destination`**: Moves files or directories to a new location.
-  - Example: `mv file1.txt /home/user/docs`.
-
-### Deleting Files:
-- **`rm filename`**: Deletes a file.
-  - Use `rm -i` for confirmation before deletion.
-  - **`rm -r directory`**: Deletes a directory and its contents.
-  - **`rm -rf directory`**: Forcibly deletes a directory without prompting (use with caution).
-
-## Conclusion
-Mastering the Linux file system commands will make navigating, managing, and editing files more efficient. Practice these commands regularly to build confidence and streamline your workflow.
+#### 🔧 Maintenance
+- Monitoring performance
+- Applying updates and patches
 
 ---
-# Day 6: Delving Deep into the Linux File System
 
-## Mastering the Linux File System Hierarchy
-The Linux file system hierarchy is designed to organize files and directories logically and efficiently. Understanding its structure is crucial for navigating and managing the operating system effectively.
+### 🏢 Key Departments
 
-### Key Concepts:
-- The Linux file system starts at the root directory `/`, which contains all other files and directories.
-- Everything in Linux, including hardware devices, is represented as a file.
+| Team | Responsibility |
+|------|---------------|
+| 👨‍💻 Development Team | Builds the application |
+| 🧪 Testing Team (QA) | Ensures software quality |
+| ⚙️ Operations Team | Manages infrastructure and deployment |
+| 📊 Business Team | Engages with clients and stakeholders |
 
-### Hierarchical Structure:
-- **Root (`/`)**: The topmost directory of the Linux file system.
-- **Parent and Child Directories**: Directories can contain subdirectories and files, forming a tree-like structure.
+---
 
-## The Significance of the Linux File System Hierarchy
-The standardized hierarchy ensures consistency across Linux distributions, making it easier to locate and manage files.
+## 💻 3. What is an Application?
 
-### Benefits:
-- Streamlined organization of system and user files.
-- Simplifies troubleshooting and system maintenance.
-- Facilitates software compatibility across distributions.
+An application is a software program designed to perform specific tasks for users or systems.
 
-## Inside the Linux Root Directory: What You Need to Know
-The root directory (`/`) contains several subdirectories, each serving a specific purpose. Here are some key directories:
+---
 
-### Key Directories:
-- **`/bin`**: Essential user binaries (e.g., `ls`, `cp`, `mv`).
-- **`/boot`**: Boot loader files and kernel images.
-- **`/etc`**: Configuration files for the system and applications.
-- **`/home`**: User home directories.
-- **`/var`**: Variable files such as logs, caches, and temporary files.
-- **`/usr`**: User-installed software and libraries.
-- **`/dev`**: Device files representing hardware components.
-- **`/tmp`**: Temporary files created by applications.
-- **`/proc` and `/sys`**: Virtual file systems providing kernel and process information.
+### 📱 Types of Applications
 
-### Practical Example:
-To explore the root directory, use:
-```
-ls /
-```
+- 🌐 **Web Applications** – Accessible via browsers (e.g., Gmail, Facebook)
+- 📱 **Mobile Applications** – For smartphones (e.g., WhatsApp, Instagram)
+- 🖥 **Desktop Applications** – Installed on computers (e.g., MS Word, Photoshop)
+- 🧩 **Microservices** – Modular applications with independent components
 
-## Understanding the Functionality of Common Linux Directories
-Each directory in Linux has a specific function. Here is a breakdown of some important ones:
+---
 
-### Common Directories:
-- **`/bin` and `/sbin`**:
-  - Contain essential system utilities and binaries.
-- **`/lib` and `/lib64`**:
-  - Shared libraries needed by binaries in `/bin` and `/sbin`.
-- **`/opt`**:
-  - Optional software packages.
-- **`/mnt` and `/media`**:
-  - Mount points for external drives and devices.
+### 🏗 Key Components of an Application
 
-### Hands-On:
-Navigate and inspect the contents of these directories to understand their role:
-```
+- 🎨 **Frontend** – User Interface (UI)
+- ⚙️ **Backend** – Server-side logic
+- 🗄 **Database** – Stores application data
+
+---
+
+## 👨‍💻 4. Developers vs Testers vs DevOps
+
+### 🔍 Roles and Responsibilities
+
+| Role | Responsibilities |
+|------|------------------|
+| 👨‍💻 Developers | - Write application code <br> - Fix bugs and add features |
+| 🧪 Testers | - Perform functional & performance testing <br> - Report issues |
+| 🚀 DevOps | - Manage CI/CD pipelines <br> - Automate infrastructure <br> - Monitor production systems |
+
+---
+
+### 🎯 Key Differences
+
+#### 🔎 Focus
+- Developers → Writing code  
+- Testers → Validating software quality  
+- DevOps → Bridging development & operations  
+
+#### 🛠 Tools Used
+
+| Role | Tools |
+|------|------|
+| Developers | IDEs, Git, Debugging tools |
+| Testers | Selenium, JUnit, LoadRunner |
+| DevOps | Jenkins, Docker, Kubernetes, Terraform |
+
+---
+
+## 🎯 Conclusion
+
+DevOps plays a crucial role in modern IT companies by enabling smooth collaboration and faster software delivery.
+
+Understanding:
+- How IT companies work  
+- What applications are  
+- Roles of Developers, Testers, and DevOps Engineers is essential for every aspiring DevOps professional.
+
+---
+
+
+
+# 🚀 Day 2: The Strategic Imperative of DevOps
+
+---
+
+## 🐧 Top Features of Linux
+
+Linux is an **open-source operating system** mainly used on servers, cloud, DevOps, and production systems.
+
+---
+
+## 🔑 Key Features (with Examples)
+
+### 🆓 Open Source
+- Source code is free  
+- Anyone can modify it  
+👉 Example: Google, Amazon, Facebook customize Linux for their systems  
+
+---
+
+### 🔐 Secure
+- Very few viruses  
+- Strong file permission system (rwx)  
+👉 Example: Banks & cloud servers run on Linux  
+
+---
+
+### 🏗 Stable
+- Servers run months/years without restart  
+👉 Example: Amazon servers don’t reboot daily like Windows  
+
+---
+
+### 👥 Multi-user & Multi-tasking
+- Multiple users can work at the same time  
+👉 Example: 100 developers logged into one Linux server  
+
+---
+
+### 💻 Command-line Power
+- Automation using shell scripts  
+👉 Example: Backup script running every night  
+
+---
+
+## 🎯 Interactive Question
+👉 **Why do you think companies prefer Linux over Windows for servers?**
+
+---
+
+## 🌍 Linux Everywhere
+- Powers over 90% of cloud infrastructure  
+- Used in supercomputers, IoT devices, and embedded systems  
+- Essential for DevOps environments  
+
+### Examples:
+- 📱 Mobile → Android  
+- ☁ Cloud → AWS, GCP, Azure  
+- 🖥 Servers → Websites, APIs  
+- ⚙ DevOps Tools → Docker, Kubernetes  
+
+---
+
+## 🚀 Unlocking Linux Careers
+- Proficiency in Linux opens doors to roles in:
+  - System Administration  
+  - Linux Administrator  
+  - DevOps Engineer  
+  - Cloud Engineer  
+- High demand for Linux skills across industries  
+
+⚠ Linux is **NOT optional** if you want cloud or DevOps jobs.
+
+---
+
+# ☁ Why AWS Stands Out in the Cloud Market
+
+- Market leader with a broad range of services  
+- Exceptional scalability and reliability  
+- Comprehensive global infrastructure  
+
+---
+
+## 🏆 Why AWS is #1
+
+- First cloud provider  
+- Largest market share  
+- Trusted by startups & enterprises  
+
+---
+
+## 🔎 Key Reasons
+
+- Global infrastructure  
+- Pay-as-you-go model  
+- Highly secure  
+- Huge service ecosystem  
+
+---
+
+## 📦 Overview of AWS
+
+- Provides compute, storage, networking, and database services  
+- Popular services: EC2, S3, RDS, Lambda  
+- Pay-as-you-go pricing model  
+
+💡 Instead of buying a ₹5 lakh server, you rent a server for ₹10/hour.
+
+---
+
+# 🌟 Customer Success Stories
+
+### 🎬 Netflix
+Scalable streaming platform  
+
+### 🚀 NASA
+Data storage and processing  
+
+---
+
+## ❗ Problem Netflix Faced
+
+- Millions of users  
+- Different countries  
+- Peak traffic at night & weekends  
+- Traditional servers cannot scale fast  
+
+### Example:
+On Friday night at 9 PM, suddenly 1 million people press PLAY 😳  
+If servers are limited → app crashes.
+
+---
+
+## ✅ How AWS Helped Netflix
+
+Netflix moved fully to AWS:
+
+- EC2 → Run streaming services  
+- S3 → Store video content  
+- Auto Scaling → Add servers automatically  
+- CloudFront → Fast video delivery worldwide  
+
+---
+
+## 🔄 What Happens in Real Time
+
+1. User clicks Play  
+2. AWS checks nearest server  
+3. Video streams from closest location  
+4. If traffic increases → AWS adds more servers  
+
+---
+
+## 💡 Key Learning for Students
+
+AWS allows automatic scaling without manual work.
+
+👉 **What would happen if Netflix used only 5 physical servers?**
+
+---
+
+# 📈 Scalability and Flexibility of Business with AWS
+
+- Elastic scaling to meet demand  
+- Supports diverse workloads and applications  
+- Enables rapid deployment of new features  
+
+---
+
+# ⚖ Comparing AWS with Competitors
+
+| Provider | Strength |
+|----------|----------|
+| AWS | Largest service catalog and global reach |
+| Azure | Strong integration with Microsoft products |
+| Google Cloud | Focus on data analytics and AI |
+
+---
+
+# 🚀 Why DevOps is a Growing Career Field
+
+- Organizations prioritize faster software delivery and innovation  
+- Essential for modern software development practices  
+
+---
+
+## 🏗 Old Model
+Developer → throws code  
+Ops → deploys manually  
+Slow & error-prone  
+
+---
+
+## ⚡ DevOps Model
+- Automation  
+- Faster releases  
+- Reliable systems  
+
+---
+
+# 📊 High Demand for DevOps Professionals
+
+- Roles in automation, CI/CD, and infrastructure management  
+- Every company wants faster delivery  
+- Automation saves money  
+- Cloud adoption increasing  
+
+---
+
+# 💰 Salary Expectations and Career Growth
+
+- Competitive salaries globally  
+- Opportunities for leadership roles  
+
+---
+
+# 🛠 Skills and Expertise in DevOps
+
+- Proficiency in CI/CD tools  
+- Strong scripting knowledge  
+- Cloud platforms expertise  
+- Infrastructure and configuration management  
+
+---
+
+# 🎓 Certifications and Learning Resources
+
+## 🏆 Certifications
+- AWS Certified DevOps Engineer  
+- Kubernetes Certified Administrator  
+- Linux Foundation Certified Engineer  
+
+---
+
+## 📚 Resources
+- Online platforms: Coursera, Udemy, Pluralsight  
+- Books:
+  - *The Phoenix Project*  
+  - *The DevOps Handbook*  
+
+---
+
+# 🔮 The Future of DevOps Careers
+
+- Increased adoption of automation and AI  
+- Enhanced demand for containerization and orchestration experts  
+
+---
+
+# 🎯 Goal to Achieve in CDEC
+
+- Master core Linux and DevOps tools  
+- Implement real-world DevOps projects  
+- Achieve certifications to validate expertise  
+
+---
+
+# 🐧 Day 3: Navigating the Linux Landscape
+
+![Linux](https://img.shields.io/badge/Linux-Operating%20System-yellow?logo=linux)
+![Shell](https://img.shields.io/badge/Shell-CLI-black?logo=gnubash)
+![Level](https://img.shields.io/badge/Level-Beginner-blue)
+![OS](https://img.shields.io/badge/Operating%20Systems-Concepts-green)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+---
+
+# 📚 Getting Started with Operating Systems
+
+An **Operating System (OS)** is the backbone of any computer.  
+It manages hardware and software resources and allows users to interact with the system.
+
+---
+
+# 🖥️ Types of Operating Systems
+
+### 🏠 Desktop OS
+- Windows  
+- macOS  
+- Linux  
+
+### 🖧 Server OS
+- Ubuntu Server  
+- CentOS  
+- Windows Server  
+
+### 📱 Mobile OS
+- Android  
+- iOS  
+
+### 📟 Embedded OS
+Designed for specific devices such as:
+- IoT devices  
+- Routers  
+
+---
+
+# 🌍 How Operating Systems Impact Daily Life
+
+Operating systems power:
+
+- Personal computers
+- Mobile devices
+- Servers
+- Internet browsing
+- Gaming
+- Productivity tools
+
+---
+
+## 📊 OS Activities Table
+
+| Activity | OS Role |
+|-----------|----------|
+| Internet browsing | Runs browser |
+| Gaming | Manages CPU & RAM |
+| Video calls | Controls mic & camera |
+| Office work | Runs applications |
+| Mobile apps | Manages background apps |
+
+---
+
+# ⚖️ Windows vs Unix vs Linux
+
+## 🏢 Ownership & Origin
+
+- **Windows** → Proprietary OS developed by Microsoft  
+- **Unix** → Developed in the 1970s; foundation for many OS  
+- **Linux** → Open-source Unix-like OS created by Linus Torvalds  
+
+---
+
+## 💰 Cost & Licensing
+
+| OS | Licensing |
+|----|------------|
+| Windows | Paid license |
+| Unix | Licensed, often expensive |
+| Linux | Free & open-source |
+
+---
+
+## 🔐 Security & Privacy
+
+- Windows → Frequent malware target  
+- Unix/Linux → Strong security features; widely trusted  
+
+---
+
+## 🖼️ User Interface
+
+| OS | Interface Style |
+|----|----------------|
+| Windows | GUI-focused |
+| Unix/Linux | Command-line driven (GUI optional) |
+
+---
+
+# 🖥️ What is a Server?
+
+A **server** is a computer that provides services to other computers over a network.
+
+---
+
+# 🖥️ Desktop OS vs Server OS
+
+| Feature | Desktop OS | Server OS |
+|----------|------------|------------|
+| Purpose | Personal use | Network services |
+| Optimization | Multimedia & UI | Performance & stability |
+| Usage | Home/Office | Data centers |
+
+---
+
+# 🐧 Introduction to Linux
+
+Linux is a versatile operating system used in:
+
+- Servers
+- Desktops
+- Embedded systems
+
+It is known for:
+
+- Stability
+- Security
+- Flexibility
+
+---
+
+# 🏗️ Architecture of Linux
+
+1. **Kernel** → Core of the OS (manages hardware)
+2. **System Libraries** → Provide system functionality
+3. **System Utilities** → Management tools
+4. **Shell** → Command interface
+5. **Applications** → User software
+
+---
+
+# 💻 Understanding the Linux Prompt
+
+Example:  [root@localhost ~]#
+
+| Symbol | Meaning |
+|--------|----------|
+| root | Current login username |
+| localhost | Machine name / hostname |
+| ~ | Current working directory |
+| # | Root user |
+| $ | Normal/local user |
+
+---
+
+# 🛠️ Linux Basic Commands
+
+## 👤 User & Session Commands
+
+| Command | Description |
+|----------|------------|
+| tty | Show current terminal number |
+| who | Show logged-in users |
+| whoami | Show current username |
+| logout / exit / Ctrl + D | Logout user |
+| sudo -i | Switch to root user |
+
+---
+
+## 📂 File & Directory Commands
+
+| Command | Description |
+|----------|------------|
+| pwd | Present working directory |
+| cd | Change directory |
+| ls | List files |
+| ll | Detailed file listing |
+| cat | View file content |
+| clear | Clear terminal screen |
+
+---
+
+## 📅 Date & Calendar Commands
+
+| Command | Description |
+|----------|------------|
+| cal | Current month calendar |
+| cal <year> | Show full year calendar |
+| cal -3 | Previous, current, next month |
+| cal -j <year> | Julian calendar |
+| date | Show current date & time |
+
+---
+
+## 🔄 System Control Commands
+
+| Command | Description |
+|----------|------------|
+| reboot / init 6 | Restart system |
+| poweroff / init 0 | Power off |
+| shutdown | Shutdown after 1 min |
+| shutdown -h now | Immediate shutdown |
+| shutdown -c | Cancel shutdown |
+| hostname | Show machine name |
+
+---
+
+# 📊 Commands to View System Information
+
+| Command | Description |
+|----------|------------|
+| hostnamectl | Detailed system info |
+| uname -a | OS kernel info |
+| free -h | Memory usage |
+| lsusb | USB devices |
+| lscpu | CPU information |
+| dmidecode | Hardware info (root required) |
+| sudo hostnamectl set-hostname new-name | Change hostname |
+
+---
+
+# 📖 Helping Commands
+
+| Command | Purpose |
+|----------|----------|
+| man <command> | Full manual |
+| info <command> | Alternative manual |
+| whatis <command> | One-line description |
+| <command> --help | Short help |
+| which <command> | Show command path |
+
+---
+
+# 🎯 Summary
+
+- Operating Systems manage hardware and software.
+- Linux is powerful, secure, and widely used in servers.
+- Understanding Linux commands is essential for DevOps & Cloud.
+- Mastering CLI improves system administration skills.
+
+---
+
+## 🚀 Next Step
+
+Practice commands on:
+- Local Linux machine
+- Virtual machine
+- Cloud server (AWS EC2)
+
+---
+
+⭐ *Keep practicing. The Linux terminal is your best friend in DevOps!*
+
+# 🐧 Day 4: Mastering the Linux Prompt
+
+![Linux](https://img.shields.io/badge/Linux-CLI-yellow?logo=linux)
+![Shell](https://img.shields.io/badge/Bash-Terminal-black?logo=gnubash)
+![Level](https://img.shields.io/badge/Level-Beginner-blue)
+![Practice](https://img.shields.io/badge/Hands--On-Practice-green)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+---
+
+# 💻 Understanding the Linux Command Prompt
+
+The Linux command prompt is a powerful interface used to interact with the operating system.
+
+Typical structure: username@hostname:~$
+
+---
+
+## 🔎 Key Components
+
+| Component | Meaning |
+|------------|----------|
+| username | Current logged-in user |
+| hostname | Computer name |
+| ~ | Home directory |
+| $ | Standard user |
+| # | Root user |
+
+---
+
+# 🧠 Decoding the Command Prompt
+
+Understanding prompt elements helps you navigate effectively.
+
+| Symbol/Command | Purpose |
+|----------------|----------|
+| `~` | User's home directory |
+| `pwd` | Show current directory |
+| `whoami` | Show current user |
+| `hostname` | Show machine name |
+
+---
+
+# 🚀 Effective Command Prompt Usage
+
+## 📂 Navigating Directories
+
+```bash
+cd        # Change directory
+ls        # List files
+pwd       # Print working directory
+cd ..     # Go back one directory
+cd ~      # Go to home directory
+
+## 📂 Managing Files
+
+touch filename      # Create empty file
+mkdir dirname       # Create directory
+rm filename         # Delete file
+
+## 📌 Linux Basic Commands
+
+## 1️⃣ Navigation Commands
+
+```bash
+pwd
+ls
 cd /etc
+cd ..
+cd ~
+---
+
+## 2️⃣ File & Directory Commands
+
+```bash
+mkdir test
+touch file1.txt
+ls
+rm file1.txt
+rmdir test
+
+##  Viewing Files
+
+```bash
+cat /etc/os-release
+
+## 📊 Essential System Information Commands
+
+```bash
+🖥️ CPU, Memory & Disk
+top
+free -h
+df -h
+uptime
+
+## 👤 OS & User Info
+
+```bash
+uname -a
+whoami
+hostname
+date
+
+## 🛠️ System Information Commands Explained
+
+```bash
+Command	Description
+
+```bash
+uname -a	System details
+df -h	Disk usage
+top	Live process monitoring
+free -m	Memory usage
+who	Logged-in users
+
+
+```
+
+## 📂 Creating Files Inside a Directory (from Root)
+
+
+```bash
+touch /home/<username>/<filename>
+
+🔢 Create Multiple Files at Once
+touch linux{1..10}.txt
+
+
+OR
+
+touch linux1.txt linux2.txt
+
+🗑️ Delete All at Once
+rm -f linux*
+
+📍 Create Files in Different Locations
+touch /mnt/file1.txt /media/file2.txt
+
+
+Delete forcefully:
+
+rm -f /mnt/file1.txt /media/file2.txt
+
+## 📁 Directory Creation
+➤ Create Single Directory in Root
+mkdir /dir1
+
+➤ Create Multiple Directories
+mkdir /root/{demo,data,practice}
+mkdir /session{1..10}
+
+➤ Delete Multiple Directories
+rmdir session*
+
+➤ Create Directories in Different Locations
+mkdir /root/dir2 /mnt/dir3 /media/dir3
+
+## 🗑️ Deleting Directories with Files Inside
+rm -r directory_name
+
+## 🔑 Important Options
+Option	Meaning
+-r	Recursive delete (includes files inside directory)
+-f	Force delete (no confirmation)
+-v	Verbose (shows what's happening)
+
+## Example:
+
+rm -rfv directory_name
+
+## 📌 Difference Between rmdir and rm
+Command	Works On
+rmdir	Empty directories only
+rm -r	Directories with files
+
+
+## 🎯 Summary
+
+
+```bash
+
+The Linux prompt is a powerful tool for system control.
+
+Understanding the prompt structure improves efficiency.
+
+Mastering file and directory commands is essential.
+
+System monitoring commands help in administration tasks.
+
+Recursive and force options allow advanced deletion operations.
+
+
+```
+
+---
+# 🐧 Day 5: Delving Deep into the Linux File System
+
+![Linux](https://img.shields.io/badge/Linux-File%20System-yellow?logo=linux)
+![CLI](https://img.shields.io/badge/CLI-Commands-black?logo=gnubash)
+![Level](https://img.shields.io/badge/Level-Beginner-blue)
+![Practice](https://img.shields.io/badge/Hands--On-Practice-green)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+---
+
+# 📂 Navigating the File System
+
+Understanding how to navigate the Linux file system is fundamental to using the operating system effectively.
+
+The Linux file system is organized as a hierarchy, starting from the root directory:
+
+```
+/
+```
+
+---
+
+## 🔑 Key Commands for Navigation
+
+### 📍 pwd
+Prints the current working directory.
+
+### 📁 cd
+Changes the current directory.
+
+```bash
+cd /home/user
+cd ..
+cd -
+```
+
+### 📄 ls
+Lists the contents of a directory.
+
+```bash
 ls -l
+ls -a
 ```
 
-## Introduction to Linux Shortcuts: Boost Your Efficiency
-Linux provides several shortcuts to improve efficiency while navigating the file system and executing commands.
+---
 
-### Common Shortcuts:
-- **`~`**: Refers to the current user’s home directory.
-- **`.`**: Represents the current directory.
-- **`..`**: Represents the parent directory.
-- **`/`**: Refers to the root directory.
+# 📁 File and Directory Management
 
-### Shortcut Examples:
-- Navigate to the home directory:
-  ```
-  cd ~
-  ```
-- Move up one level in the directory tree:
-  ```
-  cd ..
-  ```
-- Combine shortcuts for quick navigation:
-  ```
-  cd ~/Documents
-  ```
+## 🆕 Creating Files and Directories
 
-### Tips for Efficiency:
-- Use **Tab Completion** to auto-complete file and directory names.
-- Leverage **`alias`** to create shortcuts for frequently used commands.
-  - Example:
-    ```
-    alias ll='ls -l'
-    ```
-
-## Conclusion
-Understanding the Linux file system hierarchy and shortcuts enhances your ability to navigate and manage files effectively. Master these concepts to become more proficient with the Linux operating system.
-
-
-----
-# Day 7: Mastering Text Editing with VIM
-
-## Overview of Vim and Its History
-Vim (Vi IMproved) is a powerful and versatile text editor widely used in the Linux ecosystem. Originating from the Vi editor, Vim offers enhanced features such as syntax highlighting, plugins, and an extensive set of commands.
-
-### Why Use Vim?
-- Lightweight and fast.
-- Works in terminal environments, making it ideal for remote servers.
-- Extensible and customizable.
-
-### Practical:
-To check if Vim is installed:
+```bash
+touch filename
+mkdir dirname
 ```
+
+---
+
+## ✏️ Editing Files
+
+### nano
+
+```bash
+nano filename
+```
+
+Save → Ctrl + O  
+Exit → Ctrl + X  
+
+### vim
+
+```bash
+vim filename
+```
+
+Press `i` → Insert mode  
+Press `Esc` → Exit insert mode  
+Type `:wq` → Save and quit  
+
+---
+
+# 📌 Commands for Working with Files & Directories
+
+| Command | Description |
+|----------|------------|
+| pwd | Present working directory |
+| cd | Change directory |
+| ls | List files |
+| ll | Detailed file listing |
+| cat | View file content |
+| cp | Copy file |
+| mv | Move / Rename |
+| mkdir | Create directory |
+| rmdir | Delete empty directory |
+| rm | Delete file/directory |
+| locate | Search |
+| find | Advanced search |
+| sudo | Admin privileges |
+| head | First 10 lines |
+| tail | Last 10 lines |
+| echo | Save data into file |
+
+---
+
+# ⌨️ Linux Shortcuts
+
+Tab → Auto-complete  
+Ctrl + C → Cancel process  
+Ctrl + Z → Suspend process  
+Ctrl + D → Logout  
+Ctrl + L → Clear terminal  
+Ctrl + A → Move to beginning  
+Ctrl + E → Move to end  
+Ctrl + U → Delete to beginning  
+Ctrl + W → Delete word  
+Ctrl + Y → Paste  
+Ctrl + P → Previous command  
+Ctrl + R → Reverse search  
+
+---
+
+# 📖 READ Operations
+
+## cat
+```bash
+cat <file_name>
+```
+
+## more
+```bash
+more <file_name>
+```
+
+## less
+```bash
+less <file_name>
+```
+
+## head
+```bash
+head <file_name>
+head -n 15 <file_name>
+```
+
+## tail
+```bash
+tail <file_name>
+tail -n 15 <file_name>
+```
+
+## sort
+```bash
+sort <file_name>
+sort -r <file_name>
+```
+
+---
+
+# 🚚 MOVE Operation
+
+```bash
+mv <source> <destination>
+```
+
+Move example:
+
+```bash
+mv /root/anaconda /mnt/
+mv /root/* /mnt
+```
+
+Rename directory:
+
+```bash
+mv dir1 dir2
+```
+
+Rename file:
+
+```bash
+mv file1.txt file2.txt
+```
+
+---
+
+# 📋 COPY Operation
+
+```bash
+cp <source> <destination>
+```
+
+Options:
+- -f → force
+- -v → verbose
+- -r → recursive
+
+Examples:
+
+```bash
+cp -r /etc /mnt/etc-bkp
+cp /root/* /media
+cp -rv file1.txt file2.txt /mnt
+```
+
+---
+
+# 🗑️ Deleting Files
+
+```bash
+rm filename
+rm -i filename
+rm -r directory
+rm -rf directory
+```
+
+---
+
+# 🎯 Conclusion
+
+Mastering Linux file system commands makes navigation and file management efficient.
+
+Practice daily to build confidence and improve speed.
+
+⭐ Keep practicing Linux commands!
+
+# 🐧 Day 6: Delving Deep into the Linux Directory Structure
+
+## Introduction
+
+Linux follows a **hierarchical file system** that starts from the **Root Directory (`/`)**. Every file and directory in Linux is organized under this single root. Unlike Windows, which has multiple drives (C:, D:, E:), Linux has only **one root directory**.
+
+One of the most important principles in Linux is:
+
+> **Everything in Linux is treated as a file**, including hardware devices, disks, keyboards, terminals, and even running processes.
+
+---
+
+# Linux Directory Structure
+
+```text
+/
+├── bin
+├── boot
+├── dev
+├── etc
+├── home
+├── lib
+├── lib64
+├── media
+├── mnt
+├── opt
+├── proc
+├── root
+├── run
+├── sbin
+├── srv
+├── sys
+├── tmp
+├── usr
+└── var
+```
+
+---
+
+## Linux File System Hierarchy Diagram
+
+```mermaid
+graph TD
+    A["/ (Root Directory)"]
+
+    A --> B["bin"]
+    A --> C["boot"]
+    A --> D["dev"]
+    A --> E["etc"]
+    A --> F["home"]
+    A --> G["lib"]
+    A --> H["lib64"]
+    A --> I["media"]
+    A --> J["mnt"]
+    A --> K["opt"]
+    A --> L["proc"]
+    A --> M["root"]
+    A --> N["run"]
+    A --> O["sbin"]
+    A --> P["srv"]
+    A --> Q["sys"]
+    A --> R["tmp"]
+    A --> S["usr"]
+    A --> T["var"]
+```
+
+---
+
+# 1. Root Directory (/)
+
+The **Root Directory** is the top-most directory in Linux.
+
+Every directory and file starts from this location.
+
+### Commands
+
+```bash
+cd /
+ls
+pwd
+```
+
+### Example
+
+```text
+/
+├── home
+├── etc
+├── usr
+├── var
+```
+
+**Windows Comparison**
+
+```
+Windows
+C:\
+
+Linux
+/
+```
+
+---
+
+# 2. /bin (Binary Commands)
+
+Contains essential commands required by every Linux user.
+
+### Common Commands
+
+- ls
+- cp
+- mv
+- rm
+- cat
+- pwd
+- mkdir
+
+### Example
+
+```bash
+which ls
+```
+
+Output
+
+```text
+/bin/ls
+```
+
+---
+
+# 3. /sbin (System Binary)
+
+Contains system administration commands.
+
+Normally used by the root user.
+
+### Examples
+
+- reboot
+- shutdown
+- fdisk
+- fsck
+- mkfs
+
+### Command
+
+```bash
+/sbin/reboot
+```
+
+Used for:
+
+- System administration
+- Disk management
+- Network management
+
+---
+
+# 4. /etc (Configuration Files)
+
+Stores all Linux and application configuration files.
+
+Important files include:
+
+```text
+/etc/passwd
+/etc/hosts
+/etc/fstab
+/etc/ssh/sshd_config
+```
+
+### Example
+
+```bash
+cat /etc/hosts
+```
+
+Used by almost every application during startup.
+
+---
+
+# 5. /home (User Home Directories)
+
+Contains home directories for normal users.
+
+Example
+
+```text
+/home/sourabh
+/home/ubuntu
+/home/ec2-user
+```
+
+Commands
+
+```bash
+cd /home
+ls
+```
+
+Users usually store:
+
+- Documents
+- Downloads
+- Projects
+- Scripts
+- Pictures
+
+---
+
+# 6. /root (Root User Home)
+
+This is the home directory of the Linux administrator.
+
+Unlike normal users:
+
+```text
+/home/sourabh
+```
+
+Administrator:
+
+```text
+/root
+```
+
+Only the root user has permission to access this directory.
+
+---
+
+# 7. /usr (User Programs)
+
+Contains user applications and utilities.
+
+Important directories:
+
+```text
+/usr/bin
+/usr/sbin
+/usr/local
+/usr/share
+```
+
+Example
+
+```bash
+which python3
+```
+
+Output
+
+```text
+/usr/bin/python3
+```
+
+---
+
+# 8. /var (Variable Data)
+
+Stores files that change frequently.
+
+Examples
+
+```text
+/var/log
+/var/cache
+/var/spool
+```
+
+Command
+
+```bash
+cd /var/log
+ls
+```
+
+Important Log Files
+
+```text
+syslog
+messages
+auth.log
+```
+
+### DevOps Usage
+
+- View application logs
+- Troubleshoot servers
+- Monitor services
+
+---
+
+# 9. /tmp (Temporary Files)
+
+Stores temporary files.
+
+Example
+
+```bash
+touch /tmp/demo.txt
+```
+
+Most Linux systems automatically clean this directory after reboot.
+
+---
+
+# 10. /dev (Device Files)
+
+Linux treats hardware devices as files.
+
+Examples
+
+```text
+/dev/sda
+/dev/sdb
+/dev/null
+/dev/tty
+```
+
+Command
+
+```bash
+ls /dev
+```
+
+Interesting Example
+
+```bash
+echo "Hello Linux" > /dev/null
+```
+
+Output
+
+Nothing appears because `/dev/null` discards all data.
+
+---
+
+# 11. /proc (Process Information)
+
+A virtual file system created by the Linux kernel.
+
+Contains information about:
+
+- Running processes
+- CPU
+- Memory
+- Kernel
+
+Commands
+
+```bash
+cat /proc/cpuinfo
+```
+
+```bash
+cat /proc/meminfo
+```
+
+These files do not physically exist on disk.
+
+---
+
+# 12. /sys (System Information)
+
+Provides information about hardware and the Linux kernel.
+
+Command
+
+```bash
+ls /sys
+```
+
+Used by:
+
+- Kernel developers
+- Device drivers
+- System administrators
+
+---
+
+# 13. /boot
+
+Contains files required to boot Linux.
+
+Important files
+
+```text
+vmlinuz
+initrd
+grub
+```
+
+Command
+
+```bash
+ls /boot
+```
+
+If these files become corrupted, Linux may fail to boot.
+
+---
+
+# 14. /lib
+
+Contains shared libraries required by commands in `/bin` and `/sbin`.
+
+Windows equivalent:
+
+```
+DLL Files
+```
+
+Command
+
+```bash
+ldd /bin/ls
+```
+
+Shows libraries used by the `ls` command.
+
+---
+
+# 15. /lib64
+
+Contains shared 64-bit libraries.
+
+Mostly available on 64-bit operating systems.
+
+---
+
+# 16. /opt (Optional Software)
+
+Used for installing third-party applications.
+
+Examples
+
+```text
+/opt/google
+/opt/tomcat
+/opt/jenkins
+```
+
+Organizations usually install custom software here.
+
+---
+
+# 17. /mnt (Mount Point)
+
+Used for temporarily mounting file systems.
+
+Example
+
+```bash
+mount /dev/sdb1 /mnt
+```
+
+Useful for:
+
+- External hard disks
+- Additional partitions
+- Temporary mounts
+
+---
+
+# 18. /media
+
+Automatically mounts removable devices.
+
+Example
+
+```text
+/media/ubuntu/USB
+```
+
+Whenever a USB drive is inserted, Linux generally mounts it here.
+
+---
+
+# 19. /srv (Service Data)
+
+Stores data used by system services.
+
+Examples
+
+```text
+/srv/www
+/srv/http
+/srv/ftp
+```
+
+Commonly used by:
+
+- Web servers
+- FTP servers
+- File servers
+
+---
+
+# Directory Summary
+
+| Directory | Purpose |
+|------------|---------|
+| / | Root directory |
+| /bin | Essential commands |
+| /sbin | System administration commands |
+| /etc | Configuration files |
+| /home | User home directories |
+| /root | Root user's home |
+| /usr | User applications |
+| /var | Logs and variable data |
+| /tmp | Temporary files |
+| /dev | Device files |
+| /proc | Process information |
+| /sys | Kernel and hardware information |
+| /boot | Boot loader files |
+| /lib | Shared libraries |
+| /lib64 | 64-bit libraries |
+| /opt | Optional software |
+| /mnt | Temporary mount point |
+| /media | USB/CD mount point |
+| /srv | Service data |
+
+---
+
+# Key Interview Points
+
+- Linux follows a hierarchical file system.
+- Everything starts from the Root Directory (`/`).
+- Everything in Linux is treated as a file.
+- `/etc` stores configuration files.
+- `/home` contains user directories.
+- `/root` is the administrator's home directory.
+- `/var/log` stores log files.
+- `/proc` is a virtual file system.
+- `/dev` contains hardware device files.
+- `/boot` contains boot-related files.
+- `/usr` stores applications and utilities.
+- `/tmp` stores temporary files.
+
+---
+
+# Conclusion
+
+Understanding the Linux directory structure is essential for Linux administration, DevOps, cloud computing, and system troubleshooting. Every directory has a specific purpose, and knowing where files, configurations, logs, applications, and devices are stored makes managing Linux systems much easier.
+
+# 📝 Day 7: Mastering Text Editing with VIM
+
+![Linux](https://img.shields.io/badge/Linux-Text%20Editor-yellow?logo=linux)
+![Vim](https://img.shields.io/badge/Vim-Editor-green?logo=vim)
+![CLI](https://img.shields.io/badge/CLI-Terminal-black?logo=gnubash)
+![Level](https://img.shields.io/badge/Level-Beginner-blue)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+---
+
+# 📘 Overview of Vim and Its History
+
+Vim (Vi IMproved) is a powerful and versatile text editor widely used in the Linux ecosystem.
+
+It originated from the **Vi editor** and provides enhanced features like:
+
+- Syntax highlighting
+- Plugin support
+- Advanced navigation commands
+- High customization
+
+---
+
+# ❓ Why Use Vim?
+
+- Lightweight and fast  
+- Works in terminal environments (ideal for remote servers)  
+- Highly extensible and customizable  
+
+---
+
+# 🛠️ Practical: Check & Install Vim
+
+## 🔍 Check if Vim is installed
+
+```bash
 vim --version
 ```
-If not installed, use:
+
+## 📦 Install Vim (if not installed)
+
+### Debian / Ubuntu
+```bash
+sudo apt install vim
 ```
-sudo apt install vim  # Debian/Ubuntu
-sudo yum install vim  # RHEL/CentOS
+
+### RHEL / CentOS
+```bash
+sudo yum install vim
 ```
-
-## Basic Concepts: Modes in Vim
-Vim operates in multiple modes, each designed for specific tasks:
-- **Command Mode**: Default mode for navigation and issuing commands.
-- **Insert Mode**: For editing and inserting text.
-- **Visual Mode**: For selecting and manipulating text.
-- **Execute Mode**: For running commands (accessed with `:`).
-
-### Practical:
-To switch between modes:
-- Open Vim:
-  ```
-  vim example.txt
-  ```
-- Start in Command Mode (default).
-- Press `i` to enter Insert Mode.
-- Press `Esc` to return to Command Mode.
-
-## Basic Navigation in Command Mode
-Learn essential navigation commands in Command Mode:
-- Move the cursor:
-  - `h`: Left
-  - `l`: Right
-  - `j`: Down
-  - `k`: Up
-- Jump to the beginning of a line:
-  ```
-  0
-  ```
-- Jump to the end of a line:
-  ```
-  $
-  ```
-- Search for text:
-  ```
-  /search_term
-  ```
-
-### Practical:
-- Open a file and practice moving the cursor using `h`, `l`, `j`, and `k`.
-- Try jumping to the start (`0`) and end (`$`) of lines.
-
-## Text Manipulation
-Learn to delete, copy, and paste text:
-- Delete a character:
-  ```
-  x
-  ```
-- Delete a line:
-  ```
-  dd
-  ```
-- Copy a line:
-  ```
-  yy
-  ```
-- Paste after the cursor:
-  ```
-  p
-  ```
-
-### Practical:
-- Open a file and delete specific characters or lines.
-- Copy and paste a line within the file.
-
-## Undo and Redo
-Correct mistakes with undo and redo commands:
-- Undo the last change:
-  ```
-  u
-  ```
-- Redo the last undone change:
-  ```
-  Ctrl + r
-  ```
-
-### Practical:
-- Edit a file and experiment with `u` and `Ctrl + r` to understand undo/redo functionality.
-
-## Entering Insert Mode
-Switch to Insert Mode to edit text:
-- Enter Insert Mode at the cursor position:
-  ```
-  i
-  ```
-- Enter Insert Mode at the beginning of the line:
-  ```
-  I
-  ```
-
-### Practical:
-- Open a file and use `i` and `I` to enter Insert Mode and add text.
-
-## Editing Text in Insert Mode
-Once in Insert Mode, type and edit text as needed. Use backspace to delete characters.
-
-### Practical:
-- Add new content to a file in Insert Mode.
-- Use `Esc` to return to Command Mode.
-
-## Navigating and Editing in Insert Mode
-Enhance text editing skills with navigation shortcuts:
-- Jump to the beginning of the line:
-  ```
-  Ctrl + a
-  ```
-- Jump to the end of the line:
-  ```
-  Ctrl + e
-  ```
-
-### Practical:
-- Open a file, enter Insert Mode, and navigate within lines using shortcuts.
-
-## Exiting Insert Mode
-Exit Insert Mode and return to Command Mode:
-- Press:
-  ```
-  Esc
-  ```
-
-### Practical:
-- Practice toggling between Insert Mode and Command Mode while editing text.
-
-## Conclusion
-Mastering Vim requires practice and familiarity with its modes and commands. Experiment with the provided practical exercises to build your confidence in using this powerful text editor.
 
 ---
+
+# 🧠 Basic Concepts: Modes in Vim
+
+Vim operates in multiple modes:
+
+| Mode | Purpose |
+|-------|----------|
+| Command Mode | Default mode for navigation & commands |
+| Insert Mode | For writing/editing text |
+| Visual Mode | For selecting text |
+| Execute Mode | For running commands using `:` |
+
+---
+
+# 🚀 Practical: Switching Between Modes
+
+Open a file:
+
+```bash
+vim example.txt
+```
+
+- Starts in **Command Mode**
+- Press `i` → Enter **Insert Mode**
+- Press `Esc` → Return to **Command Mode**
+
+---
+
+# 🧭 Basic Navigation in Command Mode
+
+Move cursor:
+
+| Key | Direction |
+|------|------------|
+| h | Left |
+| l | Right |
+| j | Down |
+| k | Up |
+
+---
+
+# 📌 Command Mode (Default Mode)
+
+### 📋 Copy Commands
+
+```
+yy      → Copy single line
+nyy     → Copy multiple lines
+yw      → Copy single word
+p       → Paste
+```
+
+---
+
+### 🗑️ Delete Commands
+
+```
+dd      → Delete single line
+ndd     → Delete multiple lines
+dw      → Delete single word
+```
+
+---
+
+### ✂️ Cut Commands
+
+```
+cc      → Cut single line
+ncc     → Cut multiple lines
+cw      → Cut single word
+P       → Paste before cursor
+```
+
+---
+
+### ↩️ Undo & Redo
+
+```
+u        → Undo
+Ctrl + r → Redo
+```
+
+---
+
+### 🔝 File Navigation
+
+```
+gg   → Top of file
+H    → Top of page
+
+G    → Bottom of file
+L    → Bottom of page
+
+M    → Middle of page
+A    → End of current line
+```
+
+---
+
+### 🔎 Search & Jump
+
+```
+<n>gg       → Move to nth line
+:/<word>    → Search word
+```
+
+---
+
+### ✏️ Replace Commands
+
+```
+s → Remove current character & enter Insert Mode
+S → Remove current line & enter Insert Mode
+```
+
+---
+
+# ✍️ Insert Mode (Writable Mode)
+
+(Press `Esc` and then `i` to enter)
+
+| Command | Action |
+|----------|---------|
+| i | Insert at cursor |
+| I | Insert at start of line |
+| a | Insert after cursor |
+| A | Insert at end of line |
+| o | Insert new line below |
+| O | Insert new line above |
+| r | Replace single character |
+| R | Replace multiple characters |
+
+---
+
+# 🎯 Conclusion
+
+Mastering Vim requires:
+
+- Understanding its modes
+- Practicing navigation commands
+- Memorizing frequently used shortcuts
+
+Experiment with the commands above to build confidence.
+
+---
+
+⭐ The more you practice Vim, the faster and more efficient you become in Linux.
+
 # Day 8: The Editor's Lair: Mastering Text Editing with VIM
 
 ## Entering Execute Mode
@@ -715,7 +1922,6 @@ Once text is selected in Visual Mode, you can manipulate it:
   2. Press `c` to clear and enter Insert Mode.
   3. Type the replacement text and press `Esc`.
 
-
 # Day 9: Managing Users and Permissions in Linux
 
 ## Overview of User and Permission Management
@@ -763,11 +1969,11 @@ useradd [options] username
 ### Practical:
 1. Add a new user:
    ```bash
-   sudo useradd -m -s /bin/bash sourabh
+   sudo useradd -m -s /bin/bash john
    ```
 2. Verify the user:
    ```bash
-   id sourabh
+   id john
    ```
 
 ## Setting User Passwords
@@ -776,7 +1982,7 @@ Set or change a user password using the `passwd` command.
 ### Practical:
 1. Set a password for a user:
    ```bash
-   sudo passwd sourabh
+   sudo passwd john
    ```
 2. Test login with the new credentials.
 
@@ -795,11 +2001,11 @@ Groups simplify permission management by categorizing users.
    ```
 2. Add a user to the group:
    ```bash
-   sudo usermod -aG developers sourabh
+   sudo usermod -aG developers john
    ```
 3. Verify group membership:
    ```bash
-   groups sourabh
+   groups john
    ```
 
 ## Removing Users
@@ -808,11 +2014,11 @@ Delete a user account using the `userdel` command.
 ### Practical:
 1. Remove a user:
    ```bash
-   sudo userdel sourabh
+   sudo userdel john
    ```
 2. Remove a user and their home directory:
    ```bash
-   sudo userdel -r sourabh
+   sudo userdel -r john
    ```
 
 ## Introduction to Affected Files
@@ -841,7 +2047,7 @@ Each user has a dedicated home directory for personal files, typically located i
    ```
 2. Access another user’s home directory (as root):
    ```bash
-   sudo ls /home/sourabh
+   sudo ls /home/john
    ```
 
 
@@ -854,7 +2060,7 @@ The `su` command switches to another user account.
 ### Practical:
 1. Switch to another user:
    ```bash
-   su sourabh
+   su john
    ```
 2. Return to the previous user:
    ```bash
@@ -869,12 +2075,17 @@ The `sudo` command allows running commands as another user, typically root.
    ```bash
    sudo apt update
    ```
+2. Verify `sudo` privileges:
+   ```bash
+   sudo -l
+   ```
 
 ## Conclusion
 Understanding and managing users and permissions is critical for Linux system administration. By practicing these concepts, you can effectively control access and maintain system security.
 
 ---
 # Managing Users and Permissions in Linux
+
 
 ## Day 10: Managing Users and Permissions in Linux
 
@@ -887,18 +2098,7 @@ Passwords are the first line of defense for user accounts. Weak passwords can le
 
 ### Key Practices:
 - Use at least 8 characters with a mix of upper/lower case letters, numbers, and special characters.
-- Periodically change passwords to ## Day 10: Managing Users and Permissions in Linux
-
-In this lesson, we'll dive deep into user and group management in Linux, including practical applications, commands, and configuration file details.
-
----
-
-## Importance of Password Security
-Passwords are the first line of defense for user accounts. Weak passwords can lead to unauthorized access and compromise system security. Ensure users set complex passwords and follow password policies.
-
-### Key Practices:
-- Use at least 8 characters with a mix of upper/lower case letters, numbers, and special characters.
-- Periodically change passwominimize exposure risk.
+- Periodically change passwords to minimize exposure risk.
 - Avoid sharing passwords.
 
 ---
@@ -969,6 +2169,29 @@ username:password:last_change:min_days:max_days:warn:inactive:expire
 - **inactive**: Days after password expiry before account lock.
 - **expire**: Absolute account expiry date.
 
+---
+
+## Using `chage` Command
+The `chage` command manages password aging and account expiration.
+
+### Syntax:
+```bash
+chage [OPTIONS] [USER]
+```
+
+### Examples:
+- View password aging details:
+  ```bash
+  chage -l username
+  ```
+- Set maximum password age:
+  ```bash
+  chage -M 90 username
+  ```
+- Force password change at next login:
+  ```bash
+  chage -d 0 username
+  ```
 
 ---
 
@@ -1055,6 +2278,12 @@ groups username
 cat /etc/group
 ```
 
+### View Group Details:
+```bash
+groupmems -g group_name -l
+```
+
+
 ---
 
 ## Practical Examples
@@ -1078,7 +2307,7 @@ cat /etc/group
 ---
 
 By following these practices and using the mentioned commands, you can effectively manage users, passwords, and groups in Linux.
--------------------------------------------------------
+----
 # Day 11: Managing Users and Permissions in Linux
 
 ## Importance of File Permissions in Linux
@@ -1216,9 +2445,8 @@ System-defined file types are pre-configured by Linux to manage system functiona
 ---
 
 Feel free to experiment with these commands to better understand Linux permissions and file types.
--------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------
 
+----
 # Day 12: Managing Users and Permissions in Linux
 
 ## **Link Count Basics**
@@ -1331,6 +2559,21 @@ Permission denied
 <content of /root directory>
 ```
 
+## **Configuring sudo Access**
+1. **Edit sudoers File**:
+   Use the `visudo` command to safely edit the `/etc/sudoers` file.
+
+2. **Granting User Permissions**:
+   Add specific users or groups:
+   ```
+   username ALL=(ALL) ALL
+   ```
+
+3. **Restricting Commands**:
+   Limit commands a user can run:
+   ```
+   username ALL=(ALL) NOPASSWD: /sbin/reboot
+   ```
 
 ### Example
 ```bash
@@ -1519,6 +2762,105 @@ crontab -r
 ```bash
 0 2 1 * * apt-get update && apt-get upgrade -y
 ```
+
+### **Validate Cron Jobs:**
+Use the `journalctl` command to check logs and ensure jobs run as scheduled:
+```bash
+journalctl -u cron
+```
+
+---
+
+# Cron Jobs - Automated Task Scheduling in Linux
+
+This guide demonstrates how to schedule tasks in Linux using `cron`. Below are various examples of creating files, directories, and deleting them automatically based on specific schedules.
+
+---
+
+## 1. **Create a File on 29th Dec 2024**
+
+This cron job creates a file `/abc.txt` on **29th December 2024 at midnight (00:00)**.
+
+### Cron Job:
+
+```bash
+0 0 29 dec * /bin/touch /abc.txt
+```
+
+### Steps:
+
+1. Change the system date to simulate the execution time:
+
+    ```bash
+    sudo date -s "23:59:50 28 dec 2024"
+    ```
+
+2. Verify the cron job is added by running:
+
+    ```bash
+    crontab -l
+    ```
+
+---
+
+## 2. **Delete File on 30th Dec 2024**
+
+This cron job deletes the file `/abc.txt` on **30th December 2024 at midnight (00:00)**.
+
+### Cron Job:
+
+```bash
+0 0 30 dec * /bin/rm -f /abc.txt
+```
+
+### Steps:
+
+1. Change the system date to simulate the execution time:
+
+    ```bash
+    sudo date -s "23:59:50 29 dec 2024"
+    ```
+
+---
+
+## 3. **Create Directory on 10th September 2024 at 20:45**
+
+This cron job creates a directory `/root/abc` on **10th September 2024 at 20:45**.
+
+### Cron Job:
+
+```bash
+45 20 10 sep * /bin/mkdir -p /root/abc/
+```
+
+### Steps:
+
+1. Change the system date to simulate the execution time:
+
+    ```bash
+    sudo date -s "2024-09-10 20:45:00"
+    ```
+
+---
+
+## 4. **Create Directory Every Weekday (Monday to Friday) at 7:00 AM**
+
+This cron job creates a directory `/home/student/weekly_dir` **every weekday at 7:00 AM** (Monday to Friday).
+
+### Cron Job:
+
+```bash
+0 7 * * 1-5 /bin/mkdir -p /home/student/weekly_dir
+```
+
+### Steps:
+
+1. Change the system date to simulate the execution time on **Monday at 7:00 AM**:
+
+    ```bash
+    sudo date -s "2024-09-09 07:00:00"
+    ```
+
 ---
 
 ## 5. **Create a File Every Minute**
@@ -1554,6 +2896,10 @@ This cron job creates a new file every minute with a unique timestamp in the nam
     crontab -e
     ```
 
+- **Checking Cron Logs**: If your cron job is not working, check the logs to see if there were any issues:
+
+    ```bash
+    sudo grep CRON /var/log/syslog
     ```
 
 - **Cron Service**: Ensure the cron service is running:
@@ -1579,6 +2925,15 @@ With the above cron jobs, you can automate various tasks like file creation, dir
 **Happy Scheduling with Cron!**
 
 
+
+
+
+---
+
+
+This guide provides comprehensive knowledge of archiving, compression, and automation using CronTab in Linux. Practice these tasks regularly to build expertise.
+
+---
 
 # Day 15: Automation and Data Handling in Linux
 
@@ -1625,7 +2980,7 @@ cat example.txt
 #### Common Options:
 - `-r`: Reverse the sort order.
 - `-n`: Sort numerically.
-- `-k`: Specify a key for sorting. #Homework
+- `-k`: Specify a key for sorting.
 
 #### Example:
 ```bash
@@ -1638,8 +2993,8 @@ cat numbers.txt | sort -n
 - **Syntax**: `uniq [OPTIONS] [FILE]`
 
 #### Common Options:
-- `-c`: Count occurrences of each line.  
-- `-d`: Show only duplicate lines.     
+- `-c`: Count occurrences of each line.
+- `-d`: Show only duplicate lines.
 
 #### Example:
 ```bash
@@ -1658,7 +3013,7 @@ find [PATH] [OPTIONS] [EXPRESSION]
 ### Common Options:
 - `-name`: Search by file name (case-sensitive).
 - `-iname`: Search by file name (case-insensitive).
-- `-type`: Specify file type (e.g., `f` for files, `d` for directories). # homework
+- `-type`: Specify file type (e.g., `f` for files, `d` for directories).
 - `-size`: Search by file size (e.g., `+100k` for files larger than 100KB).
 - `-mtime`: Search by modification time (e.g., `-1` for files modified in the last day).
 
@@ -1673,6 +3028,15 @@ find /home -size +1M
 # Find files modified in the last 7 days:
 find /var/log -mtime -7
 ```
+
+### Advanced Usage and Filtering Options
+- Combine multiple expressions using `-and`, `-or`, and `!` (not).
+- Execute commands on found files using `-exec`.
+
+#### Example:
+```bash
+# Find and delete empty files:
+find /tmp -type f -empty -exec rm {} \;
 ```
 
 ## Practical Exercises
@@ -1691,7 +3055,7 @@ find /var/log -mtime -7
 
 By mastering these utilities, you'll significantly enhance your ability to handle data and automate tasks in Linux.
 
------------------------------
+----
 # 🌐 Basic Networking in Linux
 
 ## Overview of Networking Fundamentals
@@ -2186,4 +3550,112 @@ Employees communicate over a **WAN**.
 - **MAN** connects multiple LANs across a city.
 - **WAN** connects LANs and MANs over large geographical areas such as countries or continents.
 - The **Internet** is the best example of a **WAN**.
+
+
+
+# Managing Processes and Optimizing Performance
+
+## Understanding Process Priority and Nice Values
+Process priority determines the importance of a process relative to others in the system. In Linux, the `nice` value is used to influence process scheduling by assigning a priority level.
+
+### Key Points:
+- **Nice Values**:
+  - Range: `-20` (highest priority) to `19` (lowest priority).
+  - Default value: `0`.
+  - Negative nice values require root privileges.
+- **Command to Check Priority**:
+  - Use `top` or `htop` to view running processes and their priorities.
+- **Changing Nice Values**:
+  - Use `nice` to start a process with a specific nice value.
+  - Use `renice` to change the nice value of an existing process.
+
+---
+
+## Finding Process IDs
+Each running process in Linux is assigned a unique Process ID (PID).
+
+### Commands:
+- **List all processes**: `ps -e`
+- **Find specific process**: `pgrep <process_name>`
+- **Detailed information**: `ps -aux | grep <process_name>`
+
+---
+
+## Sending Signals to Processes
+Linux allows sending signals to control or terminate processes.
+
+### Common Signals:
+- `SIGTERM` (15): Graceful termination.
+- `SIGKILL` (9): Forceful termination.
+- `SIGHUP` (1): Reload configuration.
+
+### Commands:
+- Send signal: `kill -<signal_number> <PID>`
+- Example: `kill -9 1234` (forcefully terminates process with PID 1234).
+
+---
+
+## Practical Example: Adjusting Priority of Long-Running Processes
+1. **Start a Process with Nice Value**:
+   ```bash
+   nice -n 10 sleep 1000
+   ```
+   - This starts a `sleep` process with a nice value of `10`.
+
+2. **Change Priority of Existing Process**:
+   ```bash
+   renice -5 -p <PID>
+   ```
+   - Adjusts the nice value of the process with the given PID to `-5`.
+
+3. **Monitor Changes**:
+   ```bash
+   top
+   ```
+   - Observe the updated priority in the `PR` and `NI` columns.
+
+---
+
+## Overview of Process States
+Processes in Linux can exist in different states.
+
+### Common States:
+- **R**: Running or runnable.
+- **S**: Sleeping (waiting for an event).
+- **D**: Uninterruptible sleep (waiting for I/O).
+- **Z**: Zombie (terminated but not cleaned up).
+- **T**: Stopped or traced.
+
+### View Process States:
+- Use `ps -e -o pid,stat,cmd` to see process states and commands.
+
+---
+
+## Different Job Types and States
+Jobs represent processes managed by the shell.
+
+### Commands:
+- **List jobs**: `jobs`
+- **Foreground job**: `fg <job_id>`
+- **Background job**: `bg <job_id>`
+- **Stop job**: `kill -TSTP <PID>`
+
+---
+
+## Visualizing the Process Tree
+Understanding parent-child relationships among processes helps analyze system behavior.
+
+### Command:
+- `pstree`
+  - Displays processes in a tree structure.
+- Example:
+  ```bash
+  pstree -p
+  ```
+  - Shows processes along with their PIDs.
+
+---
+
+
+
 
